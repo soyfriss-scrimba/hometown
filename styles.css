@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.paleta {
+    color: #E63946;
+    color: #F1FAEE;
+    color: #A8DADC;
+    color: #457B9D;
+    color: #1D3557;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+
+header {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+.header-text {
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+#header-title {
+    background: #457B9D;
+}
+
+#header-subtitle {
+    background: #1D3557;
+}
+
+/* Activities section */
+#activities-section {
+    background: #F1FAEE;
+    color: #1D3557;
+    padding: 32px;
+
+}
+
+#activities-subsections {
+    display: flex;
+    justify-content: center;
+}
+
+.activities-subsection {
+    padding: 16px 16px 0 0;
+    /* border: 1px solid black */
+}
+
+#activities-section-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.activities-subsection-img {
+    border-radius: 50%;
+}
+
+.activities-subsection-title {
+    font-weight: bold;
+}
+
+/* Guide section */
+#guide-section {
+    padding: 32px;
+}
+
+#guide-section-container {
+    width: 400px;
+    background: #A8DADC;
+    color: #1D3557;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin: 0 auto;
+    border-bottom: 4px solid #1D3557;
+    border-radius: 4px;
+}
+
+#guide-section-text {
+    padding: 8px 0 0 16px;
+    /* border: 1px solid black; */
+}
+
+#guide-section-img {
+    width: 180px;
+    border-radius: 4px;
+}
+
+#guide-section-quote {
+    font-style: italic;
+}
+
+#guide-section-author {
+    margin-bottom: 0;
+}
+
+.remove-margin-bottom {
+    margin-bottom: 0;
+}
